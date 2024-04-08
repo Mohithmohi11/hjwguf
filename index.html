@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="logo.jpg" type="image/icon">
+    <link rel="stylesheet" href="main.css" type="text/css">
+</head>
+<body>
+    <nav action="submit.html">
+   <p><a href=#submit.html>this is  a picture</a></p><p><a href="#poem">go to blockquote code</a></p>
+   <p><a href="#table">Table page</a> </p>
+   <p><a href="#a">Aside page </a></p>
+    </nav>
+    <h1>Heading</h1><hr><br>
+    <p>&lt;&copy;this<br><strong>is</strong>  &nbsp; &nbsp;<em>a</em> paragraph</p>
+    <address><b>MUTHUR</b>Muthur</address>
+    <abbr title="K.S.Rangasamy">KSR</abbr>
+    <ul><li><p>learn daa</p></li>
+        <li><p>learn sepp</p></li>
+        <li><p>learn java</p>
+    </ul></li>
+    <ol><li><p>learn daa</p></li>
+        <li><p>learn sepp</p></li>
+        <li><p>learn java</p>
+    </ol></li>
+    <dl>
+        <dt>python</dt>
+        <dd>data science</dd>
+        <dt>java</dt> 
+        <dd>app development</dd>   
+    </dl>
+    <a href="https://www.youtube.com/watch?v=tfN9gPFmUfA&t=4913s" target="blank">youtube</a><br><br>
+    
+    <hr>
+    <section id="pic"><figure>
+        <p><h2 style="color:goldenrod">This is a picture</h2></p>
+    <img src="picture.jpg" title="farmer">
+ </figure>
+ </section><hr>
+&lt;h1&gt;hello&lt;/h1&gt;
+<hr>
+<div id="poem">
+    <blockquote> <h2 style="color:dodgerblue">THIS IS BLOCKQUOTE CODE</h2><br><br>The bdo tag in HTML stands for "Bi-Directional Override." It is used to override the default text directionality of the document. In HTML, the default text direction is determined by the language of the document and the user's browser settings.
+
+        The bdo tag has two main attributes:
+        
+        dir: This attribute specifies the directionality of the text. It can take one of two values: "ltr" for left-to-right direction or "rtl" for right-to-left direction.
+        
+        lang: This attribute is optional and specifies the language of the text.
+        
+        The first paragraph will be displayed in the default text direction, while the second and third paragraphs will be displayed in right-to-left direction due to the bdo tag with the dir="rtl" attribute. The third paragraph additionally specifies the language as Arabic using the lang attribute.
+        
+        The bdo tag can be useful when you want to explicitly control the text directionality, such as when dealing with languages that are read from right to left (e.g., Arabic, Hebrew, or Persian), or when you want to override the default direction for specific portions of the text.
+        
+        
+        The blockquote tag in HTML is used to indicate a section of quoted content. It is commonly used to represent a block of text quoted from another source or to highlight a specific section of text within a document.
+        
+        The blockquote tag is a block-level element, which means it creates a line break before and after the quoted content, causing it to appear as a separate block on the page. By default, the browser will typically apply indentation or styling to visually differentiate the quoted content from the surrounding text.
+        
+        By default, the browser will render the blockquote element with appropriate indentation or styling to indicate that it represents a block of quoted content. However, the exact appearance may vary depending on the browser and CSS styles applied to the element.
+        Featured playlist
+        </blockquote>
+</div><hr>
+        <p><a href="#">Back to top</a></p>
+        <button>youtube</button>
+        <hr><hr>
+        <p id="a" style="font-size:40px; color: darkblue;">Aside page</p>
+        <aside>
+            <details>
+                <summary>
+                    guess the total number of farmers in INDIA
+                </summary>
+                                <p>Totally there are Around 93.094 million farners in INDIA</p>
+            </details>
+            <details>
+                <summary>
+                    click to watch picture
+                </summary>
+                <p><img src="paddy.jpg" ></p>
+            </details>
+        </aside>
+<hr>
+<p style="font-size:30px; color:silver;">TABLE</p>
+<table id="table" title="Table of my routine" style="width:100%">
+    <tr>
+        <th><br></th>
+        <th colspan="1">Time</th>
+        <th>My Activity</th>
+    </tr>
+    <tr>
+        <th>Morning</th>
+        <td>6am-7am</td>
+        <td>Write code</td>
+    </tr>
+    <tr>
+        <th>Break</th>
+         <td>7am-8am</td>
+         <td>bath time</td>
+    </tr>
+    <tr>
+        <th>Eat</th>
+        <td>8am-8:30am</td>
+        <td>Breakfast</td>
+    </tr>
+    <tr>
+    <th rowspan="2">Others</th>
+        <td rowspan="2">Other Times</td>
+        <td>Insta</td>
+    </tr>
+        <tr>
+        <td>Sleep</td>  
+    </tr>
+</table>
+<hr><hr><br>
+<form action="submit.html" method="get">
+    <div>
+    <label for="firstname">FirstName:</label>
+    <input type="text" name="firstname" id="firstname" placeholder="Enter First Name" autocomplete="on" required>
+    </div><br>
+    <div>
+    <label for="lastname">LastName:</label>
+    <input type="text" name="lastname" id="lastname" placeholder="Enter last Name" autocomplete="on" required>
+    <br>
+</div><br>
+<div>
+    <label for="password">Password:</label>
+    <input type="password" name="password" id="password" placeholder="Enter Your Password" required>
+
+</div><br>
+<div>
+    <label for="Mobile">Mobile No:</label>
+    <input type="tel" name="Mobile" id="Mobile" placeholder="Mobile Number" autocomplete="on" required pattern="[0-9]{5}[0-9]{5}">
+
+</div><br>
+<div>
+    <label for="decade">Fav Decade:</label>
+    <input type="number" name="decade" id="decade" placeholder="Year" min="2000" max="2024" step="1">
+
+</div><br>
+    <label for="content">Your Content</label>
+    <select name="content" id="content" multiple size="2">
+        <option value="Web Development">Web Development</option>
+        <option value="Data science">Data Science</option>
+        <option value="SoftWare Developer">SoftWare Developer</option>
+    </select><br><br>
+    <div>
+        <label for="birthday">BirthDay</label>
+        <input type="date" name="birthday" id="birthday">
+        <br><br>
+    </div>
+<hr><hr>
+    <div>
+<legend> Select Your Current Studying Year</legend>
+<input type="radio" name="studying year" id="I-year">
+<label for="I-year">I-YEAR</label>
+<div>
+    <input type="radio" name="studying year" id="II-year">
+    <label for="II-year">II-YEAR</label>
+</div>
+<div>
+    <input type="radio" name="studying year" id="III-year">
+    <label for="III-year">III-YEAR</label>
+</div>
+<div>
+    <input type="radio" name="studying year" id="IV-year">
+    <label for="IV-year">IV-YEAR</label>
+</div>
+<div>
+    <p>Select Your Crruent Semester</p>
+<input type="radio" name="semester" id="current semester">
+<label for="current semester">1</label>
+</div>
+<div>
+    <input type="radio" name="semester" id="first semester">
+    <label for="current semester">2</label>
+</div>
+<div>
+    <input type="radio" name="semester" id="current semester">
+    <label for="current semester">3</label>
+</div>
+<div>
+    <input type="radio" name="semester" id="current semester">
+    <label for="current semester">4</label>
+</div>
+<div>
+    <input type="radio" name="semester" id="current semester">
+    <label for="current semester">5</label>
+</div>
+<div>
+    <input type="radio" name="semester" id="current semester">
+    <label for="current semester">6</label>
+</div>
+<div>
+    <input type="radio" name="semester" id="current semester">
+    <label for="current semester">7</label>
+</div>
+<div>
+    <input type="radio" name="semester" id="current semester">
+    <label for="current semester">8</label>
+</div><hr><hr>
+<div>
+    <p>Your Favorite Dish</p>
+    <input type="checkbox" name="fav-food" id="mutton">
+    <label for="mutton">Chicken</label>
+</div>
+<div>
+    <input type="checkbox" name="fav-food" id="chicken">
+    <label for="chicken">Mutton</label>
+</div>
+<div>
+    <input type="checkbox" name="fav-food" id="others">
+    <label for="others">Others</label>
+</div>
+<div>
+    <input type="checkbox" name="fav-food" id="fish">
+    <label for="fish">fish</label>
+</div><hr>
+    <label for="message">Your Message</label>
+    <p>
+    <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your Message"></textarea>
+    </p>
+    <input type="submit">submit &nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="reset" onclick="alert('Reset Data')">
+</form>
+</body>
+</html>
