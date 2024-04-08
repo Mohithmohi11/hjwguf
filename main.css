@@ -1,0 +1,24 @@
+body{
+    background-color: brown;
+    color:black;
+    background-repeat: no-repeat;
+    background-size:200%
+}
+button{
+    border: 200px;;
+}
+table,tr,th,td{
+    border:3px solid;
+    border-radius: 10px;
+    border-style:dotted;
+}
+form{
+    text-align:center;
+    border: 10px solid silver;
+    padding: 5px;
+    width:40%;
+    height: 275px;
+    border-style:inset;
+    border-radius:30px;
+    border-color:mediumblue;
+}
